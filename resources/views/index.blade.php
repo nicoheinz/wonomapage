@@ -17,9 +17,14 @@
         left: 30%;
     }
 
-    .solidemo{
+    .btns-orange{
         background-color: orangered;
         margin-top: 3em;
+    }
+    .btns-white{
+        background-color:white;
+        color:orangered;
+        border: 1px solid orangered;
     }
 
     .wono{
@@ -64,6 +69,8 @@
     .margintitle{
         margin-top: 2em;
     }
+
+
 </style>
 
 
@@ -83,7 +90,7 @@
                     <div class="centered">
                         <h1>INNOVACIÓN PARA TU SALÓN</h1>
                         <h5>DIGITALIZA Y  GESTIONA TU NEGOCIO.ATRAE Y FIDELIZA MÁS CLIENTES</h5>
-                        <a href="#" class="btn btn-primary solidemo">Solicitar Demo</a>
+                        <a href="#" class="btn btn-primary btns-orange">Solicitar Demo</a>
                     </div>
                     
             </div>
@@ -160,10 +167,10 @@
                 <b>¿Sabías que el 50 % de tus clientes  quieren reservar cuando tu salón está cerrado, y que el 40% de las llama  a tu salón dan ocupa ?</b>
             </div>
             <div style="margin-top: 2em;margin-left: 4em; margin-right: 4em;">
-                <b>Wonoma permite que  tus clientes de manera  fácil, rápida  y desde dispositivo ,<span style="color:red">las 24hs, los 7 días de la semana.</span></b>
+                <b>Wonoma permite que  tus clientes de manera  fácil, rápida  y desde dispositivo ,<span style="color:red">reserven las 24hs, los 7 días de la semana.</span></b>
             </div>
     
-            <a href="#" class="btn btn-primary" style="margin-top: 8em;">Empezar ahora</a>
+            <a href="#" class="btn btn-primary btns-white" style="margin-top: 8em; margin-bottom:2em">Empezar ahora</a>
         
         </div>
         <div class="col-md-6 text-center">
@@ -219,7 +226,7 @@
     </div>
     <div class="row">
             <div class="col-md-12 text-center top-show">
-                <a href="#" class="btn btn-primary">Solicitar Demo</a>
+                <a href="#" class="btn btn-primary btns-orange">Solicitar Demo</a>
             </div>
     </div>
 
@@ -252,7 +259,7 @@
                 </b>
             </div>
             <div style="margin-top: 5em">
-                <a href="#" class="btn btn-primary">Suscríbete</a>
+                <a href="#" class="btn btn-primary btns-white">Suscríbete</a>
             </div>
 
         </div>
@@ -295,7 +302,7 @@
                 <img class="im5" src="{{ asset('img/img6.png')}}">
             </div>
             <div style="margin-top: 5em">
-                <a  href="#" class="btn btn-primary left-show">Suscríbete</a>
+                <a  href="#" class="btn btn-primary left-show btns-white">Suscríbete</a>
             </div>
         </div>
     </div>
@@ -331,7 +338,7 @@
 
             <p>Tu web gratis</p>
 
-            <a href="#" class="btn btn-primary">Empezar ahora</a>
+            <a href="#" class="btn btn-primary btns-orange">Empezar ahora</a>
         </div>
         
         <div class="col-md-2 text-center price-center">
@@ -361,7 +368,7 @@
 
             <p>Gastos </p>
 
-            <a href="#" class="btn btn-primary">Empezar ahora</a>
+            <a href="#" class="btn btn-primary btns-orange">Empezar ahora</a>
         </div>
     </div>
 </div>
@@ -399,7 +406,7 @@
 
             <h4  style="margin-top: 3em"><b>Formulario de contacto</b></h4>
 
-            <a href="#" class="btn btn-primary" style="margin-top: 3em; margin-bottom: 3em">Quiero recibir información</a>
+            <a href="#" class="btn btn-primary btns-orange" style="margin-top: 3em; margin-bottom: 3em">Quiero recibir información</a>
         </div>
     </div>
 </div>
