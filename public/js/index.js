@@ -9,28 +9,27 @@ $(document).ready(function(){
     
     });
 
-
-
     window.sr = ScrollReveal({ reset: true });
-    sr.reveal('.img1', { 
+    
+    sr.reveal('.im1', { 
         duration: 1000,
         distance: '100%',
         origin: 'left',
     });
 
-    sr.reveal('.img2', { 
+    sr.reveal('.im2', { 
         duration: 1000,
         distance: '100%',
         origin: 'right',
     });
 
-    sr.reveal('.img3', { 
+    sr.reveal('.im3', { 
         duration: 1000,
         distance: '100%',
         origin: 'bottom',
     });
 
-    sr.reveal('.img4', { 
+    sr.reveal('.im4', { 
         duration: 1000,
         distance: '100%',
         origin: 'left',
@@ -59,5 +58,31 @@ $(document).ready(function(){
         duration: 2000,
         distance: '100%',
         origin: 'right',
-    }); 
+    });
+
+    sr.reveal('.bottom-show', { 
+        duration: 2000,
+        distance: '100%',
+        origin: 'bottom',
+    });
+
+    sr.reveal('.left-show', { 
+        duration: 2000,
+        distance: '100%',
+        origin: 'left',
+    });
+
+    sr.reveal('.right-show', { 
+        duration: 2000,
+        distance: '100%',
+        origin: 'right',
+    });
+
+    sr.reveal('.top-show', { 
+        duration: 2000,
+        distance: '100%',
+        origin: 'top',
+    });
+    
+    
 });
