@@ -79,7 +79,7 @@
     </div>
     <div class="row">
             <div class="col-md-12" id="uno">
-                    <img src="{{ asset('img/img1.png')}}" alt="placeholder 960" class=" float-left img-responsive" style="width: 100%">
+                    <img src="{{ asset('img/img1.png')}}" alt="placeholder 960" class=" float-left img-responsive im6" style="width: 100%">
                     <div class="centered">
                         <h1>INNOVACIÓN PARA TU SALÓN</h1>
                         <h5>DIGITALIZA Y  GESTIONA TU NEGOCIO.ATRAE Y FIDELIZA MÁS CLIENTES</h5>
@@ -95,7 +95,7 @@
 
 <div class="container-fluid seccion" id="seccion1">
     <div class="row">
-        <div class="col-md-12 text-center margintitle">
+        <div class="col-md-12 text-center margintitle left-show">
             <h4 class="wono">WONOMA</h4>
             <h4 class="soft"> Soft potencia a los mejores salones de belleza,</h4>
             <h4>empleando la última tecnología digital.</h4>
@@ -105,33 +105,34 @@
     </div>
     <div class="row">
         <div class="col-md-12 text-center">
-            <img src="{{ asset('img/img2.png')}}">
+            <img class="im1" src="{{ asset('img/img2.png')}}">
         </div>
 
     </div>
-
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <h2 style="margin-top: 1em">¿ Aún dependes de tu teléfono y de tu agenda de papel?</h2>
-        </div>
-    </div>
-    
-    <div class="content-request">
+    <div class="bottom-show">
         <div class="row">
-                <div class="col-md-6 text-center">
-                    <h5>GESTIONA  TU NEGOCIO ONLINE</h5>
-                </div>
-                <div class="col-md-6 text-center">
-                    <h5>RESERVAS LAS 24HS</h5>
-                </div>
+            <div class="col-md-12 text-center">
+                <h2 style="margin-top: 1em">¿ Aún dependes de tu teléfono y de tu agenda de papel?</h2>
             </div>
+        </div>
+        
+        <div class="content-request">
             <div class="row">
                     <div class="col-md-6 text-center">
-                        <h5>MULTICANALIDAD</h5>
+                        <h5>GESTIONA  TU NEGOCIO ONLINE</h5>
                     </div>
                     <div class="col-md-6 text-center">
-                        <h5>ATRAE A MÁS CLIENTES </h5>
+                        <h5>RESERVAS LAS 24HS</h5>
                     </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-6 text-center">
+                            <h5>MULTICANALIDAD</h5>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <h5>ATRAE A MÁS CLIENTES </h5>
+                        </div>
+            </div>
         </div>
     </div>
 
@@ -142,7 +143,7 @@
 <div class="container-fluid seccion" id="seccion2">
 
     <div class="row" >
-        <div class="col-md-12 text-center margintitle">
+        <div class="col-md-12 text-center margintitle top-show">
             <h2 style="color:red;margin-top: 1em">RESERVAS LAS 24HS</h2>
             
             <div class="col-md-12 text-center">
@@ -154,7 +155,7 @@
     </div>
     
     <div class="row" style="margin-top: 3em">
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 text-center left-show">
             <div style="margin-top: 2em;margin-left: 4em; margin-right: 4em;">
                 <b>¿Sabías que el 50 % de tus clientes  quieren reservar cuando tu salón está cerrado, y que el 40% de las llama  a tu salón dan ocupa ?</b>
             </div>
@@ -166,7 +167,7 @@
         
         </div>
         <div class="col-md-6 text-center">
-            <img src="{{ asset('img/img3.png')}}">
+            <img class="im2" src="{{ asset('img/img3.png')}}">
         </div>
     </div>
 
@@ -180,7 +181,7 @@
 <div class="container-fluid seccion" id="seccion3">
     
     <div class="row">
-        <div class="col-md-6 text-center margintitle">
+        <div class="col-md-6 text-center margintitle top-show">
             <div style="margin-top: 2em;margin-left: 4em; margin-right: 4em;">
                 <b>¿Inviertes en tus redes sociales, Ads? ¿Tu WhatsApp funciona en todo momento? ¿Tus clientes te buscan en Google Maps ?  
 
@@ -201,23 +202,23 @@
         </div>
         <div class="col-md-6 text-center margintitle">
 
-            <div>
+            <div class="top-show">
                 <h2 style="color:red">MULTICANALIDAD</h2>
             </div>
-            <div style="margin-top: 1em">
+            <div class="left-show" style="margin-top: 1em">
                 <h5><b>Varios  Canales. Muchas reservas. </b></h5>
                 <h5><b>Un solo destino, tu salón.<hr style="width: 50%; padding-bottom: 1em">
                 </b></h5>
             </div>
             <div>
-                <img src="{{ asset('img/img4.png')}}">
+                <img class="im3" src="{{ asset('img/img4.png')}}">
             </div>
             
         </div>
         
     </div>
     <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-center top-show">
                 <a href="#" class="btn btn-primary">Solicitar Demo</a>
             </div>
     </div>
@@ -229,14 +230,14 @@
 <!--CUARTA SECCION-->
 <div class="container-fluid seccion" id="seccion4">
     <div class="row">
-        <div class="col-md-12 text-center margintitle">
+        <div class="col-md-12 text-center margintitle bottom-show">
             <h2 style="color:red">ATRAE A MÁS CLIENTES </h2>
             <h4>Más clientes.  Más fidelizados . <hr style="width: 60%">
             </h4>
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 text-center right-show">
             <div style="margin-top: 2em;margin-left: 4em; margin-right: 4em;">
                 <b>Te ayudamos a potenciar tu negocio para darte a conocer a más  clientes y fidelizarlos</b>
             </div>
@@ -256,7 +257,7 @@
 
         </div>
         <div class="col-md-6 text-center">
-            <img src="{{ asset('img/img5.png')}}">
+            <img class="im4" src="{{ asset('img/img5.png')}}">
         </div>
     </div>
 </div>
@@ -266,14 +267,14 @@
 <!--QUINTA SECCION-->
 <div class="container-fluid seccion" id="seccion5">
     <div class="row">
-        <div class="col-md-12 text-center margintitle">
+        <div class="col-md-12 text-center margintitle top-show">
             <h2 style="color: red">TU NEGOCIO ONLINE</h2>
             <h4>La información de tu negocio, cuando y donde la necesites.</h4>
             <hr style="width: 60%">
         </div>
     </div>
     <div class="row">
-        <div class="col-md-6 text-center">
+        <div class="col-md-6 text-center left-show">
             <div style="margin-top: 2em;margin-left: 4em; margin-right: 4em;">
                 <b>La manera de gestionar un negocio cambió, ya no importa donde estés, con <span>sólo un click</span> accedes a él.
                 </b>
@@ -291,10 +292,10 @@
         </div>
         <div class="col-md-6 text-center">
             <div style="margin-top: 2em">
-                <img src="{{ asset('img/img6.png')}}">
+                <img class="im5" src="{{ asset('img/img6.png')}}">
             </div>
             <div style="margin-top: 5em">
-                <a href="#" class="btn btn-primary">Suscríbete</a>
+                <a  href="#" class="btn btn-primary left-show">Suscríbete</a>
             </div>
         </div>
     </div>
@@ -304,14 +305,14 @@
 <!--SEXTA SECCION-->
 <div class="container-fluid seccion" id="seccion6">
     <div class="row">
-        <div class="col-md-12 text-center margintitle">
+        <div class="col-md-12 text-center margintitle top-show">
             <h2 style="color:red" class="margintitle"> PRECIOS Y PLANES</h2>
             <h5><b>No hay costos escondidos ni sorpresas.</b></h5>
             <h5><b>Cancela o cambia tu plan en cualquier momento.</b></h5>
         </div>
     </div>
     <div class="row" style="margin:2em">
-        <div class="col-md-5 text-center" style="border: 1px solid orangered; padding: 0.5em;">
+        <div class="col-md-5 text-center price-left" style="border: 1px solid orangered; padding: 0.5em;">
             <div style="border: 1px solid orangered">
                 <h4>PLAN BASIC</h4>
                 <h4>US$ 9,99 al mes</h4>
@@ -333,7 +334,7 @@
             <a href="#" class="btn btn-primary">Empezar ahora</a>
         </div>
         
-        <div class="col-md-2 text-center">
+        <div class="col-md-2 text-center price-center">
             <p>Elegir país</p>
             <p>Argentina</p>
             <p>Internacional</p>
@@ -341,7 +342,7 @@
             <p style="margin-top: 1em">U$20 y U$30</p>
         </div>
 
-        <div class="col-md-5 text-center" style="border: 1px solid orangered;padding: 0.5em;">
+        <div class="col-md-5 text-center price-right" style="border: 1px solid orangered;padding: 0.5em;">
             <div style="border: 1px solid orangered">
                 <h4>PLAN GOLD</h4>
                 <h4>UUS$ 24,99 al mes</h4>
