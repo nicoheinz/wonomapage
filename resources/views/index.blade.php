@@ -19,7 +19,8 @@
 
     .btns-orange{
         background-color: orangered;
-        margin-top: 3em;
+        color:white !important;
+        /*margin-top: 3em;*/
     }
     .btns-white{
         background-color:white;

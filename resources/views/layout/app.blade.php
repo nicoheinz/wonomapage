@@ -41,7 +41,7 @@
                           <a class="nav-link scroll" href="#seccion3" id="3">Clientes</a>
                         </li>
                         <li class="nav-item">
-                          <a class="nav-link btn btn-primary" href="#">Regristrate</a>
+                          <a class="nav-link btn btn-primary btns-orange" href="#">Regristrate</a>
                         </li>
                       </ul>
                     </div>
