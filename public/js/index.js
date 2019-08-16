@@ -62,25 +62,25 @@ $(document).ready(function(){
 
     sr.reveal('.bottom-show', { 
         duration: 2000,
-        distance: '100%',
+        distance: '80%',
         origin: 'bottom',
     });
 
     sr.reveal('.left-show', { 
         duration: 2000,
-        distance: '100%',
+        distance: '80%',
         origin: 'left',
     });
 
     sr.reveal('.right-show', { 
         duration: 2000,
-        distance: '100%',
+        distance: '800%',
         origin: 'right',
     });
 
     sr.reveal('.top-show', { 
         duration: 2000,
-        distance: '100%',
+        distance: '80%',
         origin: 'top',
     });
     

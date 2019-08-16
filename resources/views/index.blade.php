@@ -3,158 +3,75 @@
 
 @section('content')
 
-<style>
-    .cont{
-        position: relative;
-        text-align: center;
-        color: white;
-        margin-bottom: 5em;
-    }
 
-    .centered{
-        position: absolute;
-        top: 50%;
-        left: 30%;
-    }
-
-    .btns-orange{
-        background-color: orangered;
-        color:white !important;
-        /*margin-top: 3em;*/
-    }
-    .btns-white{
-        background-color:white;
-        color:orangered;
-        border: 1px solid orangered;
-    }
-
-    .wono{
-        color: #C62026;
-    }
-    .soft{
-        color: #000000;
-
-    }
-
-    .wono,.soft{
-        display: inline-block;
-    }
-    .wonocontainer{
-        margin-left: 5em;
-    }
-
-    .content-request{
-        padding-left: 10em !important;
-        padding-right: 10em !important;
-        padding-top: 3em;
-    }
-
-    .content-request h5{
-        padding-bottom: 2em;
-    }
-
-    hr {
-    border: 0; 
-    border-top: 1px solid black; 
-    }
-
-    html {
-        scroll-behavior: smooth;
-    }
-
-    /*#seccion1,#seccion2,#seccion3,#seccion4*/
-    .seccion{
-        margin-bottom:11em;
-        margin-top: 10em;
-    }
-    .margintitle{
-        margin-top: 2em;
-    }
-
-
-</style>
-
-
-<div class="container-fluid cont">
-
-    <!---INICIO-->
+<section id="seccionIni">
+	 <!---INICIO-->
     <div class="row">
-        <div class="wonocontainer">
-            <h4 class="wono">WONOMA</h4>
-            <h4 class="soft"> SOFT</h4>
-        </div>
-        
+
+		<img src="{{ asset('img/img1.png')}}">
+
+		<div class="centered">
+		    <h1>INNOVACIÓN PARA TU SALÓN</h1>
+		    <h5>DIGITALIZA Y  GESTIONA TU NEGOCIO.ATRAE Y FIDELIZA MÁS CLIENTES</h5>
+		    <a href="#" class="btn btn-primary btns-orange">Solicitar Demo</a>
+		</div>                
+
     </div>
-    <div class="row">
-            <div class="col-md-12" id="uno">
-                    <img src="{{ asset('img/img1.png')}}" alt="placeholder 960" class=" float-left img-responsive im6" style="width: 100%">
-                    <div class="centered">
-                        <h1>INNOVACIÓN PARA TU SALÓN</h1>
-                        <h5>DIGITALIZA Y  GESTIONA TU NEGOCIO.ATRAE Y FIDELIZA MÁS CLIENTES</h5>
-                        <a href="#" class="btn btn-primary btns-orange">Solicitar Demo</a>
-                    </div>
-                    
-            </div>
-    </div>
-</div>    
-    
 
-<!--PRIMERA SECCION-->
+</section>
 
-<div class="container-fluid seccion" id="seccion1">
-    <div class="row">
-        <div class="col-md-12 text-center margintitle left-show">
+<!--class="col-md-12 text-center"-->
+
+<section id="seccion1">
+	<div class="row">
+        <div class="col-md-12 margintitle left-show">
             <h4 class="wono">WONOMA</h4>
             <h4 class="soft"> Soft potencia a los mejores salones de belleza,</h4>
             <h4>empleando la última tecnología digital.</h4>
             <hr style="width: 60%">
-        </div>
-        
+        </div>    
     </div>
     <div class="row">
-        <div class="col-md-12 text-center">
-            <img class="im1" src="{{ asset('img/img2.png')}}">
-        </div>
-
+        
+        <img class="im1" src="{{ asset('img/img2.png')}}">
+     	
     </div>
     <div class="bottom-show">
         <div class="row">
-            <div class="col-md-12 text-center">
-                <h2 style="margin-top: 1em">¿ Aún dependes de tu teléfono y de tu agenda de papel?</h2>
+            <div class="col-md-12">
+                <h2>¿ Aún dependes de tu teléfono y de tu agenda de papel?</h2>
             </div>
         </div>
         
         <div class="content-request">
             <div class="row">
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6">
                         <h5>GESTIONA  TU NEGOCIO ONLINE</h5>
                     </div>
-                    <div class="col-md-6 text-center">
+                    <div class="col-md-6">
                         <h5>RESERVAS LAS 24HS</h5>
                     </div>
                 </div>
                 <div class="row">
-                        <div class="col-md-6 text-center">
+                        <div class="col-md-6 ">
                             <h5>MULTICANALIDAD</h5>
                         </div>
-                        <div class="col-md-6 text-center">
+                        <div class="col-md-6 ">
                             <h5>ATRAE A MÁS CLIENTES </h5>
                         </div>
             </div>
         </div>
     </div>
+</section>
 
-</div>
 
 
-<!--SEGUNDA SECCION-->
-<div class="container-fluid seccion" id="seccion2">
-
-    <div class="row" >
+<section id="seccion2">
+	 <div class="row" >
         <div class="col-md-12 text-center margintitle top-show">
             <h2 style="color:red;margin-top: 1em">RESERVAS LAS 24HS</h2>
             
-            <div class="col-md-12 text-center">
+            <div class="col-md-12">
                 <b>Tu salón cierra, tu agenda no!.</b>
                 <hr style="width: 20%">
             </div>
@@ -163,7 +80,7 @@
     </div>
     
     <div class="row" style="margin-top: 3em">
-        <div class="col-md-6 text-center left-show">
+        <div class="col-md-6 left-show">
             <div style="margin-top: 2em;margin-left: 4em; margin-right: 4em;">
                 <b>¿Sabías que el 50 % de tus clientes  quieren reservar cuando tu salón está cerrado, y que el 40% de las llama  a tu salón dan ocupa ?</b>
             </div>
@@ -171,24 +88,18 @@
                 <b>Wonoma permite que  tus clientes de manera  fácil, rápida  y desde dispositivo ,<span style="color:red">reserven las 24hs, los 7 días de la semana.</span></b>
             </div>
     
-            <a href="#" class="btn btn-primary btns-white" style="margin-top: 8em; margin-bottom:2em">Empezar ahora</a>
+            <a href="#" class="btn btn-primary btns-white btn-emp">Empezar ahora</a>
         
         </div>
-        <div class="col-md-6 text-center">
+        <div class="col-md-6">
             <img class="im2" src="{{ asset('img/img3.png')}}">
         </div>
     </div>
-
-</div>
-
-
-
-
-<!--TERCERA SECCION-->
-
-<div class="container-fluid seccion" id="seccion3">
+</section>
     
-    <div class="row">
+
+<section id="seccion3">
+	<div class="row">
         <div class="col-md-6 text-center margintitle top-show">
             <div style="margin-top: 2em;margin-left: 4em; margin-right: 4em;">
                 <b>¿Inviertes en tus redes sociales, Ads? ¿Tu WhatsApp funciona en todo momento? ¿Tus clientes te buscan en Google Maps ?  
@@ -231,13 +142,11 @@
             </div>
     </div>
 
-</div>
 
+</section>
 
-
-<!--CUARTA SECCION-->
-<div class="container-fluid seccion" id="seccion4">
-    <div class="row">
+<section id="seccion4">
+	<div class="row">
         <div class="col-md-12 text-center margintitle bottom-show">
             <h2 style="color:red">ATRAE A MÁS CLIENTES </h2>
             <h4>Más clientes.  Más fidelizados . <hr style="width: 60%">
@@ -268,13 +177,10 @@
             <img class="im4" src="{{ asset('img/img5.png')}}">
         </div>
     </div>
-</div>
+</section>
 
-
-
-<!--QUINTA SECCION-->
-<div class="container-fluid seccion" id="seccion5">
-    <div class="row">
+<section id="seccion5">
+	<div class="row">
         <div class="col-md-12 text-center margintitle top-show">
             <h2 style="color: red">TU NEGOCIO ONLINE</h2>
             <h4>La información de tu negocio, cuando y donde la necesites.</h4>
@@ -307,12 +213,11 @@
             </div>
         </div>
     </div>
+</section>
 
-</div>
 
-<!--SEXTA SECCION-->
-<div class="container-fluid seccion" id="seccion6">
-    <div class="row">
+<section id="seccion6">
+	 <div class="row">
         <div class="col-md-12 text-center margintitle top-show">
             <h2 style="color:red" class="margintitle"> PRECIOS Y PLANES</h2>
             <h5><b>No hay costos escondidos ni sorpresas.</b></h5>
@@ -372,13 +277,11 @@
             <a href="#" class="btn btn-primary btns-orange">Empezar ahora</a>
         </div>
     </div>
-</div>
+</section>
 
-
-
-<!--SEPTIMA SECCION-->
-<div class="container-fluid seccion" id="seccion7">
-    <div class="row">
+<section id="seccion7">
+	
+	<div class="row">
         <div class="col-md-12 text-center margintitle">
             <h1>CONFÍAN EN NOSOTROS</h1>
 
@@ -389,12 +292,10 @@
             <h4><b>LABORATORIO 	SIR FAUSTO</b></h4>
         </div>
     </div>
-</div>
+</section>
 
-
-<!--OCTAVA SECCION-->
-<div class="container-fluid seccion" id="seccion8">
-    <div class="row"    >
+<section id="seccion8">
+	  <div class="row">
         <div class="col-md-12 text-center margintitle">
             <h1><b>Es hora de potenciar tu salón</b></h1>
 
@@ -410,6 +311,6 @@
             <a href="#" class="btn btn-primary btns-orange" style="margin-top: 3em; margin-bottom: 3em">Quiero recibir información</a>
         </div>
     </div>
-</div>
+</section>
 
 @endsection
