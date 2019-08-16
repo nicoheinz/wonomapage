@@ -156,6 +156,10 @@ margin-bottom: 5vh;
     margin-top: 10vh !important;
 }
 
+.nav-tabs{
+    border-bottom: none !important;
+}
+
 @media only screen and (max-width: 768px) {
     .im2{
         height: 45vw;
