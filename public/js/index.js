@@ -1,5 +1,6 @@
 $(document).ready(function(){
-      
+    
+    $('body').scrollspy({ target: '#navbarNav' })
     
     $('.nav-link').click(function(){
     
@@ -74,7 +75,7 @@ $(document).ready(function(){
 
     sr.reveal('.right-show', { 
         duration: 2000,
-        distance: '800%',
+        distance: '80%',
         origin: 'right',
     });
 

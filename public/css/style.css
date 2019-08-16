@@ -6,21 +6,41 @@ body, html {
   margin:0 !important;
   padding:0 !important;
 }
+body{
+    position: relative;
+}
+
+.nav-tabs .nav-link.active{
+    background-color: orangered !important;
+    color:white !important;
+}
+
+
+
+span.anchor {
+    margin-top: -54px; /* height of nav, in this case 54px */
+    display: block;
+    height: 54px; /* height of nav, in this case 54px */
+    visibility: hidden;
+    position: relative;
+}
+
+
 
 hr {
     border: 0; 
     border-top: 1px solid black; 
 }
 
-.wono{
+.color-logo{
     color: #C62026;
 }
-.soft{
+.color-primary{
     color: #000000;
 
 }
 
-.wono,.soft{
+.block-inline{
     display: inline-block;
 }
 
@@ -42,7 +62,7 @@ section{
   position: absolute;
   top: 75vh;
   left: 50vw;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -90%);
   color: white;
 
 }
@@ -125,36 +145,69 @@ margin-top: 15vh;
 margin-bottom: 5vh;
 }
 
-
-@media only screen and (max-width: 760px) {
-.im2{
-       height: 30vw;
+.container-img img{
+    position: relative;
+    width: 50%;
+    height:20vh;
+    margin-top: 10vh;
 }
 
-.btn-emp{
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+.spacing{
+    margin-top: 10vh !important;
 }
 
-#seccion3{
-       padding-top: 1vw !important;
-   }
+@media only screen and (max-width: 768px) {
+    .im2{
+        height: 45vw;
+    }
+    .im4{
+        height: 40vw;
+    }
+    .im3,.im5{
+        height: 33vw;
+    }
 
-   #seccion3 img{
-       /*height: 50vw;*/
-       display: none;
-   }
 
-#seccionIni h1, #seccionIni h5{
-    margin-bottom: 4vw;
+    .btn-emp{
+        margin-top: 4vw;
+        margin-bottom: 5vw;
+    }
+
+    #seccionIni h1, #seccionIni h5{
+        margin-bottom: 4vw;
+    }
+
+
+    .cont-imgbtn div{
+        margin: 1em !important;
+    }
+
+    #seccion8{
+        margin-top:5em;
+    }
+
+    #seccion6 .container-price{
+        margin-top: 3em !important;
+    }
+
 }
 
-.im4{
-    height: 40vw;
-}
+@media only screen and (max-width: 500px) {
 
-#seccion1,#seccion3,#seccion4,#seccion5,
-#seccion6,#seccion7,#seccion8{
-    padding-top: 2vw;
-}
+
+    .im2,.im3,.im4{
+        height: 60vw;
+    }
+
+    .im5{
+        height: 40vw;
+    }
+
+    .cont-imgbtn div{
+        margin: 0.2em !important;
+    }
+
+    p{
+        font-size: 12px;
+    }
 }

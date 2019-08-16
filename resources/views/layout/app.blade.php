@@ -20,15 +20,15 @@
 
 
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbarNav">
     
     <div>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
           <a class="navbar-brand" href="#seccionIni">
             <div class="row">
                   <div class="wonocontainer">
-                      <h4 class="wono">WONOMA</h4>
-                      <h4 class="soft"> SOFT</h4>
+                      <h4 class="color-logo block-inline">WONOMA</h4>
+                      <h4 class="color-primary block-inline"> SOFT</h4>
                   </div>
           </div>	
           </a>
@@ -36,7 +36,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse text-center" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto nav-tabs">
               <li class="nav-item active">
                 <a class="nav-link" href="#seccion1">Caracteristicas <span class="sr-only">(current)</span></a>
               </li>
@@ -47,7 +47,7 @@
                 <a class="nav-link" href="#seccion7">Clientes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#seccion7" class="btns-white">Regístrate</a>
+                <a class="nav-link btns-white" href="#">Regístrate</a>
               </li>
             </ul>
           </div>
