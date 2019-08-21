@@ -8,20 +8,11 @@ html {
     scroll-behavior: smooth;
 }
 
-body, html {
-
- /*margin:0 !important;
-  padding:0 !important;*/
-}
 body{
     position: relative;
     color: #444444 !important;
 }
 
-.nav-tabs .nav-link.active{
-    background-color: #C62026 !important;
-    color:white !important;
-}
 
 
 
@@ -61,9 +52,8 @@ section{
 } 
 
 #seccionIni img{
-    /*width: 100%;*/
+    width: 100%;
     height: 100vh;
-
 }
 
 .centered{
@@ -74,6 +64,24 @@ section{
   color: white;
 
 }
+
+.nav-tabs .nav-link.active{
+    background-color: #C62026 !important;
+    color:white !important;
+}
+
+.nav-tabs .nav-link:hover{
+    color: white !important;
+    background-color:  #C62026 !important;
+}
+.nav-tabs .nav-link{
+    margin-left: 1em;
+}
+
+.btn-registrar{
+    border: 1px solid #C62026 !important;
+}
+
 
 .row, container-fluid{
     margin: 0 !important;
@@ -119,7 +127,7 @@ section{
 }
 .btns-orange:hover{
     background-color: #961e22 !important;
-    color: white !important
+    color: white !important;
 
 }
 .priceheader{
@@ -140,31 +148,6 @@ section{
     position: absolute;
     bottom: 5px;
     transform: translate(-50%, 0%);
-}
-
-nav .navbar-nav li a{
-  color: black;
-  font-size: 20px;
-
-}
-nav .navbar-nav li a:hover{
-    background-color: #C62026;
-    color: white !important;
-}
-.btn-registrar{
-    border: 1px solid #C62026 !important;
-}
-
-.navbar-light .navbar-nav .nav-link{
-    margin-left: 1em;
-    color: #444444 !important;
-}
-
-.navbar-light .navbar-nav .active>.nav-link, 
-.navbar-light .navbar-nav .nav-link.active, 
-.navbar-light .navbar-nav .nav-link.show, 
-.navbar-light .navbar-nav .show>.nav-link{
-    color: #444444 !important;
 }
 
 .col-md-6,.col-md-12,.col-md-8,.col-md-4{
@@ -194,10 +177,12 @@ margin-bottom: 5vh;
 
 #seccion6 .container-price{
         margin-top: 1.5em !important;
-    
 }
 
 @media only screen and (max-width: 768px) {
+    #seccionIni img{
+       width: auto;
+    }
     .im2{
         height: 45vw;
     }
@@ -237,7 +222,7 @@ margin-bottom: 5vh;
 @media only screen and (max-width: 500px) {
 
     .imgportada{
-        content: url('../img/d2.jpg');
+       /* content: url('../img/portada2.jpg');*/
     }
 
     .im2,.im3,.im4{
