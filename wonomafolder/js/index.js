@@ -10,80 +10,14 @@ $(document).ready(function(){
     
     });
 
-    window.sr = ScrollReveal({ reset: true });
+    window.sr = ScrollReveal({ reset: false });
     
-    sr.reveal('.im1', { 
-        duration: 1000,
-        distance: '100%',
-        origin: 'left',
-    });
-
-    sr.reveal('.im2', { 
-        duration: 1000,
-        distance: '100%',
-        origin: 'right',
-    });
-
-    sr.reveal('.im3', { 
-        duration: 1000,
-        distance: '100%',
-        origin: 'bottom',
-    });
-
-    sr.reveal('.im4', { 
-        duration: 1000,
-        distance: '100%',
-        origin: 'left',
-    });
-
-    sr.reveal('.im5', { 
-        duration: 1000,
-        distance: '100%',
-        origin: 'right',
-    });
-
-
-    sr.reveal('.price-left', { 
+    sr.reveal('.seccion', { 
+        distance: '50px',
         duration: 2000,
-        distance: '100%',
-        origin: 'left',
+        opacity: 0,
     });
 
-    sr.reveal('.price-center', { 
-        duration: 1000,
-        distance: '100%',
-        origin: 'bottom',
-    });
 
-    sr.reveal('.price-right', { 
-        duration: 2000,
-        distance: '100%',
-        origin: 'right',
-    });
-
-    sr.reveal('.bottom-show', { 
-        duration: 2000,
-        distance: '80%',
-        origin: 'bottom',
-    });
-
-    sr.reveal('.left-show', { 
-        duration: 2000,
-        distance: '80%',
-        origin: 'left',
-    });
-
-    sr.reveal('.right-show', { 
-        duration: 2000,
-        distance: '80%',
-        origin: 'right',
-    });
-
-    sr.reveal('.top-show', { 
-        duration: 2000,
-        distance: '80%',
-        origin: 'top',
-    });
-    
     
 });
