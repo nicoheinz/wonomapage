@@ -44,6 +44,7 @@ hr {
 }
 
 .titulo-white{
+    margin-top: 1em;
     color:white;
 }
 
@@ -127,7 +128,7 @@ section{
 }
 
    #seccion1,#secciondos,#seccion3,#seccion4,#seccion5,
-#seccion6,#seccion7,#seccion8{
+#seccion6,/*#seccion7,*/#seccion8{
        padding-top: 5vh;
    }
 
@@ -137,7 +138,7 @@ section{
     background-color: #C62026 !important;
     color:white !important;
     border-color: #C62026 !important;
-    
+    margin-top: 2em;
 }
 .btns-orange:hover{
     background-color: #961e22 !important;
@@ -192,8 +193,27 @@ margin-bottom: 5vh;
     margin-bottom: 3vw;
 }
 
+.content-request a{
+    width: 35vw;
+}
 
-@media only screen and (min-width: 800px) {
+
+@media only screen and (max-width: 500px) {
+    .container-form{
+        margin-top: 1em !important;
+    }
+    .header-form{
+        margin-bottom: 0.5 !important;
+    }
+    .btns-orange{
+        margin-top: 1em;
+    }
+
+}
+
+
+
+@media only screen and (min-width: 800px){
     #seccionIni{
         overflow: hidden;
         height: 90vh;
@@ -215,17 +235,43 @@ margin-bottom: 5vh;
         background-repeat: no-repeat;
         background-size: cover;
     }
-
+    
 }
 
-
 @media only screen and (max-width: 800px) {
-
     
-    .im2,.im3,.im4{
-        height: 60vw;
+    .content-request a{
+        width: 65vw;
+        
     }
 
+    .content-request .btn h5{
+        font-size: 12px !important;
+    }
+
+    .price-left,.price-right{
+        margin-top: 3em !important;
+    }
+    .dropselect{
+        position: absolute !important;
+        left:30vw;
+        width: 20%;
+    
+        /*padding: 1px !important;*/
+        
+    }
+
+    .dropdown-toggle{
+        width: 100%;
+        font-size: 12px !important;
+        padding: 10px !important;
+    }
+
+
+    .im2,.im3,.im4{
+        height: 30vw;
+        
+    }
     .im5{
         height: 40vw;
     }
@@ -283,8 +329,8 @@ margin-bottom: 5vh;
 }
 
 .height-content{
-    height: 100%;
-    padding: 100px 20px 100px 20px !important;
+    /*height: 100%;
+    padding: 100px 20px 100px 20px !important;*/
 }
 
 
@@ -381,4 +427,25 @@ input[type='email']:focus{
 
 .secciondos h2{
     margin-top: 1em;
+}
+
+#seccion8{
+    background-color: #cccccc;
+}
+.container-form{
+    margin-top: 5em;
+
+}
+.header-form{
+    margin-bottom: 2em;
+    /*color:white;*/
+}
+
+.img-fluid{
+    max-width: 90% !important;
+    height: auto;
+}
+
+.btn{
+    font-size: 0.8rem !important;
 }

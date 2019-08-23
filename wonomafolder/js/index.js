@@ -43,13 +43,14 @@ $(document).ready(function(){
 
         $(".twLongform_FieldInput label").addClass("twLongform");
         $(".twLongform_FieldInput label").show();
-        $(this).attr('value', '+54');
+        $(this).focus().val('+54');
+    
     });
 
     $('#tel').on('focus blur', function(e) {
         var placeholder = e.type == 'focus' ? '' : 'Teléfono';
         $(this).attr('placeholder', placeholder);
-        $(this).attr('value', '');
+        $(this).val('');
     });
 
     $("#email").click(function(){
