@@ -106,11 +106,12 @@ section{
     margin-bottom: 8vh;
 }
 
-#seccion1 img{
+#seccion1 .im1{
     
     position: relative;
     margin: 0 auto;
     width: 40vw;
+    margin-bottom: 5em;
 }
 
 .im2{
@@ -125,10 +126,12 @@ section{
     margin-top: 2vh;
 }
 
-   #seccion1,#seccion3,#seccion4,#seccion5,
+   #seccion1,#secciondos,#seccion3,#seccion4,#seccion5,
 #seccion6,#seccion7,#seccion8{
        padding-top: 5vh;
    }
+
+
 
 .btns-orange{
     background-color: #C62026 !important;
@@ -162,11 +165,6 @@ section{
     transform: translate(-50%, 0%);
 }
 
-.col-md-6,.col-md-12,.col-md-8,.col-md-4{
-margin: 0 !important;
-padding: 0 !important;
-}
-
 .btn-emp{
 margin-bottom: 5vh;
 }
@@ -187,6 +185,11 @@ margin-bottom: 5vh;
 
 #seccion6 .container-price{
         margin-top: 1.5em !important;
+}
+
+.btn-seccion{
+    border: 1px solid white !important;
+    margin-bottom: 3vw;
 }
 
 
@@ -294,3 +297,88 @@ margin-bottom: 5vh;
     text-align: left;
 }
 
+
+
+.pricedolar ,.pricepesos{
+    display: none;
+}
+
+
+.secciondos{
+    background-color: #C62026;
+    color: white;
+}
+
+.form-container{
+    margin: 0 auto;
+    width:70%
+}
+
+.iconflag{
+    width: 20%;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+
+.dropdown-item{
+    padding: 0 !important;
+    padding-right: 2.2em !important;
+    padding-left: 1em !important;
+}
+
+.loc-caption:before {
+    content: attr(title);
+    display: block;
+  }
+  
+  ul {
+    text-align: center;
+    padding: 0;
+  }
+  
+  li.loc-caption {
+    display: inline-block;
+    vertical-align: top;
+    width: 19%;
+  }
+  
+  li.loc-caption img {
+    max-width: 40%;
+    height: auto;
+  }
+
+input[type='text']:focus,
+input[type='tel']:focus,
+input[type='email']:focus{
+    border-color:#C62026;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #C62026;
+    outline: 0 none;
+}
+
+.twLongform_FieldInput input[type='text']:not(.Filled):not(:focus)+label, 
+.twLongform_FieldInput input[type='email']:not(.Filled):not(:focus)+label,
+.twLongform_FieldInput input[type='tel']:not(.Filled):not(:focus)+label{
+    opacity: 0;
+}
+.twLongform_FieldInput label {
+    transition: .3s opacity ease;
+    z-index: 5;
+    position: absolute;
+    top: 0px;
+    left: 17px;
+    margin: 0;
+    
+}
+.twLongform {
+    font-size: 10px;
+    font-weight: 400;
+    color: #B3B3B3;
+}
+.twLongform_FieldInput {
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.secciondos h2{
+    margin-top: 1em;
+}
