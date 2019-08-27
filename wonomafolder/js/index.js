@@ -19,13 +19,62 @@ $(document).ready(function(){
     });
 
     $("#itemargetina").click(function(){
-        $(".pricedolar").hide();
-        $(".pricepesos").show();
+        $(".priceinternacional").hide();
+        $(".pricebolivares").hide();
+        $(".pricechile").hide();
+        $(".priceparaguay").hide();
+        $(".priceuruguay").hide();
+        $(".priceargentina").show();
     });
 
+    $("#itembolivia").click(function(){
+        $(".priceinternacional").hide();
+        $(".pricechile").hide();
+        $(".priceparaguay").hide();
+        $(".priceargentina").hide();
+        $(".priceuruguay").hide();
+        $(".pricebolivares").show();
+    });
+
+    $("#itemchile").click(function(){
+        $(".priceinternacional").hide();
+        $(".priceparaguay").hide();
+        $(".priceparaguay").hide();
+        $(".priceuruguay").hide();
+        $(".pricebolivares").hide();
+        $(".priceargentina").hide();
+        $(".pricechile").show();
+    });
+
+    $("#itemparaguay").click(function(){
+        $(".priceinternacional").hide();
+        $(".priceparaguay").hide();
+        $(".priceuruguay").hide();
+        $(".pricebolivares").hide();
+        $(".pricechile").hide();
+        $(".priceargentina").hide();
+        $(".priceparaguay").show();
+    });
+
+    $("#itemuruguay").click(function(){
+        $(".priceinternacional").hide();
+        $(".priceparaguay").hide();
+        $(".pricebolivares").hide();
+        $(".pricechile").hide();
+        $(".priceparaguay").hide();
+        $(".priceargentina").hide();
+        $(".priceuruguay").show();
+    });
+
+
+
     $("#iteminternacional").click(function(){
-        $(".pricepesos").hide();
-        $(".pricedolar").show();
+        $(".priceargentina").hide();
+        $(".pricebolivares").hide();
+        $(".pricechile").hide();
+        $(".priceparaguay").hide();
+        $(".priceuruguay").hide();
+        $(".priceinternacional").show();
     });
 
     $("#direccion").click(function(){

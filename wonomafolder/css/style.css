@@ -127,8 +127,8 @@ section{
     margin-top: 2vh;
 }
 
-   #seccion1,#secciondos,#seccion3,#seccion4,#seccion5,
-#seccion6,/*#seccion7,*/#seccion8{
+   #seccion1,#seccion2,#seccion3,#seccion4,
+#seccion6,#seccion7{
        padding-top: 5vh;
    }
 
@@ -197,6 +197,10 @@ margin-bottom: 5vh;
     width: 35vw;
 }
 
+.dropselect a{
+    font-size: 1.2vw !important;
+}
+
 
 @media only screen and (max-width: 500px) {
     .container-form{
@@ -224,49 +228,88 @@ margin-bottom: 5vh;
 
     .imgportada{
         width: 100%;
-        /* content: url('../img/portada2.jpg');*/
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .backImgSeccion{
         height: 100vh;
-        /* content: url('../img/portada2.jpg');*/
         background-repeat: no-repeat;
         background-size: cover;
     }
+
     
 }
 
 @media only screen and (max-width: 800px) {
+   
     
+    #seccion7 button{
+        position: absolute !important;
+        font-size: 13px;
+        left: 50%;
+        transform: translate(-50%);
+
+    }
+    .titulo-white{
+        font-size: 1.5rem;
+    }
+
+    .remarcado{
+        font-size: 15px;
+    }
+    .subtitulo-price h5{
+        font-size: 12px;
+        margin-bottom: 0 !important;
+    }
+
     .content-request a{
         width: 65vw;
         
+    }
+
+    #seccion6 .container-price{
+        margin-top: 0.5em !important;
     }
 
     .content-request .btn h5{
         font-size: 12px !important;
     }
 
+    .titleheader h4{
+        font-size: 14px;
+    }
+
+    .price-left p, .price-right p {
+        margin-bottom: 0.8em !important
+    }
+
     .price-left,.price-right{
-        margin-top: 3em !important;
+        height: 270px;
+    }
+    .price-left{
+        margin-top: 2.5em !important;
+    }
+    .price-right{
+        margin-top: 1em !important;
     }
     .dropselect{
         position: absolute !important;
-        left:30vw;
-        width: 20%;
-    
-        /*padding: 1px !important;*/
+        width: 120px !important;
+        left: 50%;
+        transform: translate(-50%) !important;
         
     }
 
     .dropdown-toggle{
         width: 100%;
-        font-size: 12px !important;
-        padding: 10px !important;
+    
     }
 
+    
+    .price-left .btn , .price-right .btn, .dropselect .btn{
+        font-size: 0.8rem !important;
+    }
 
     .im2,.im3,.im4{
         height: 30vw;
@@ -292,14 +335,14 @@ margin-bottom: 5vh;
 
     .imgportada{
         height: 100vh;
-        /* content: url('../img/portada2.jpg');*/
+        
         background-repeat: no-repeat;
         background-size: cover;
     }
 
     .backImgSeccion{
         height: 100vh;
-        /* content: url('../img/portada2.jpg');*/
+        
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -328,12 +371,6 @@ margin-bottom: 5vh;
     background-color: #cccccc;
 }
 
-.height-content{
-    /*height: 100%;
-    padding: 100px 20px 100px 20px !important;*/
-}
-
-
 .nav-tabs .nav-link{
     border-radius: 5px;
 }
@@ -345,7 +382,8 @@ margin-bottom: 5vh;
 
 
 
-.pricedolar ,.pricepesos{
+.priceinternacional ,.priceargentina,.pricebolivares,.pricechile,
+.priceparaguay,.priceuruguay{
     display: none;
 }
 
@@ -429,23 +467,17 @@ input[type='email']:focus{
     margin-top: 1em;
 }
 
-#seccion8{
+#seccion7{
     background-color: #cccccc;
 }
 .container-form{
     margin-top: 5em;
-
 }
 .header-form{
-    margin-bottom: 2em;
-    /*color:white;*/
+    margin-bottom: 2em; 
 }
 
 .img-fluid{
     max-width: 90% !important;
-    height: auto;
-}
-
-.btn{
-    font-size: 0.8rem !important;
+    max-height: 90% !important;
 }
