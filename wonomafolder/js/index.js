@@ -1,13 +1,15 @@
 $(document).ready(function(){
     
+    $(".dropdown-menu li a").click(function(){
+        $(this).parents(".btn-group").find('.selection').text($(this).text());
+        $(this).parents(".btn-group").find('.iconflagone').attr("src",$(this).find("img").attr("src"));
+    });
+
     $('body').scrollspy({ target: '#navbarNav' })
     
     $('.nav-link').click(function(){
-    
         $a=$(this).attr('id');
         $("#seccion"+$a).hide().fadeIn(3000);
-
-    
     });
 
     window.sr = ScrollReveal({ reset: false });

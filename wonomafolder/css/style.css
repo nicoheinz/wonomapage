@@ -198,8 +198,9 @@ margin-bottom: 5vh;
     width: 35vw;
 }
 
-.dropselect a{
-    font-size: 1.2vw !important;
+
+.dropselect .dropdown-toggle{
+    font-size: 1vw !important;
 }
 
 
@@ -245,8 +246,13 @@ margin-bottom: 5vh;
 }
 
 @media only screen and (max-width: 800px) {
-   
-    
+
+
+
+    .dropselect button{
+        height: 38px;
+        font-size: 14px !important;
+    }
     #seccion7 button{
         position: absolute !important;
         font-size: 13px;
@@ -288,30 +294,29 @@ margin-bottom: 5vh;
     }
 
     .price-left,.price-right{
-        height: 270px;
+        height: 280px;
     }
     .price-left{
-        margin-top: 2.5em !important;
+        margin-top: 2.6em !important;
     }
     .price-right{
-        margin-top: 1em !important;
+        margin-top: 0.5em !important;
     }
     .dropselect{
         position: absolute !important;
-        width: 120px !important;
+        width: 170px !important;
         left: 50%;
         transform: translate(-50%) !important;
         
     }
 
     .dropdown-toggle{
-        width: 100%;
-    
+        width: 100% !important;
     }
 
     
     .price-left .btn , .price-right .btn, .dropselect .btn{
-        font-size: 0.8rem !important;
+        font-size: 0.9rem !important;
     }
 
     .im5{
@@ -391,7 +396,7 @@ margin-bottom: 5vh;
 
 
 
-.priceinternacional ,.priceargentina,.pricebolivares,.pricechile,
+/*.priceinternacional ,*/.priceargentina,.pricebolivares,.pricechile,
 .priceparaguay,.priceuruguay{
     display: none;
 }
@@ -406,17 +411,27 @@ margin-bottom: 5vh;
     margin: 0 auto;
     width:70%
 }
-
 .iconflag{
-    width: 20%;
-    margin-right: 1em;
+    margin-right: 0.5em;
     margin-bottom: 0.5em;
 }
+.iconflagone{
+    margin-right: 0.1em;
+}
+.iconflag,.iconflagone{
+    width: 20%;
+    margin-bottom: 0.1em;
+}
+
 
 .dropdown-item{
     padding: 0 !important;
     padding-right: 2.2em !important;
     padding-left: 1em !important;
+}
+
+a .dropdown-item{
+    font-size: 20px !important;
 }
 
 .loc-caption:before {
